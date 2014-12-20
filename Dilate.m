@@ -2,7 +2,7 @@
 function [D] = Dilate(object,elem) 
 D = object;
 z = size(elem,1);
-z = size(elem,1);
+%z = size(elem,1);
 z = (z-1)/2;
 for i =z+1: size(object,1)-z
     for j=z+1: size(object,2)-z
