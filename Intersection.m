@@ -1,4 +1,3 @@
-% this is a set function
 function [ x ] = Intersection(a,b)
 x = zeros(size(a));
     for i = 1:size(a,1)
@@ -14,5 +13,4 @@ x = zeros(size(a));
     end
 
 end
-
 
